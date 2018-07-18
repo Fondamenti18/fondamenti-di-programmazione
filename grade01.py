@@ -93,4 +93,4 @@ if __name__ == "__main__":
             result = runner.run(suite)
             q2a[code]=result.testsRun-len(result.failures)
      
-    print(json.dumps(q2a))   
+    print('<q2a>'+json.dumps(q2a)+'</q2a>')   
