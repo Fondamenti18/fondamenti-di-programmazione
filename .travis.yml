@@ -5,5 +5,11 @@ language: python
 python:
     - "3.6"
   
+if: commit_message = "Q2A"
+
 script: 
     - python grade01.py
+    
+notifications:
+    email: false
+    webhooks: https://q2a.di.uniroma1.it/service/ci
