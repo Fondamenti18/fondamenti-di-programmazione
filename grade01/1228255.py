@@ -29,8 +29,8 @@ def modi(ls, k):
     
     for num in tmpLs:
         numDivisori = getNumDivisori(num)
-        #if numDivisori == 0:
-            #lsPrimi.append(num)
+        if numDivisori == 0:
+            lsPrimi.append(num)
         if numDivisori != k:
             ls.remove(num)
     return lsPrimi
