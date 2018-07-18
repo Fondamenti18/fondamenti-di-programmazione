@@ -17,6 +17,7 @@ ATTENZIONE: Se il grader non termina entro 30 secondi il punteggio dell'esercizi
 import math
 
 def modi(ls,k):
+    
     primi = []
     kdiv  = []
     for n in ls:
