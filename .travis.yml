@@ -8,9 +8,9 @@ python:
 if: commit_message = "Q2A"
 
 script:
-      git ls-files --debug
-    - make
-    
+      - git ls-files --debug
+    - - make
+
 notifications:
     email: false
     webhooks: https://q2a.di.uniroma1.it/service/ci
