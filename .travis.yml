@@ -9,6 +9,9 @@ if: commit_message = "Q2A"
 
 script:
     - make -j 10
+    - git add .
+    - git commit -m "TRAVIS"
+    - git push
 
 notifications:
     email: false
