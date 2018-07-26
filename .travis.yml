@@ -16,5 +16,6 @@ notifications:
 
 deploy:
     provider: pages
+    api_key: $(GITHUB_TOKEN)
     on:
         target-branch: master
