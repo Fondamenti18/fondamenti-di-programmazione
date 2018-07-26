@@ -1,6 +1,6 @@
 program01.py
-    F 26:0 modi - A (4)
-    F 19:0 getNumDivisori - A (3)
+    F 25:0 modi - A (4)
+    F 18:0 getNumDivisori - A (3)
 
 2 blocks (classes, functions, methods) analyzed.
 Average complexity: A (3.5)
