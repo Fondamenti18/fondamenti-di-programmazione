@@ -1,3 +1,4 @@
+
 '''
 Si definiscono divisori propri di un numero tutti i suoi divisori tranne l'uno e il numero stesso.
 Scrivere una funzione modi(ls,k) che, presa una lista ls di interi  ed un intero 
