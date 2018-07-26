@@ -1,3 +1,4 @@
+
 import unittest
 import os
 import importlib
@@ -65,19 +66,20 @@ class Test(unittest.TestCase):
         self.__check(ret, [10000000469,10000000711], orig, 'return')
         self.__check(lista, [10000000116, 10000000548, 10000000768],       orig, 'ls')
     
-    def __check(self,a,b, params=None, expl=''):
+    def __check(self, value, expected, params=None, explanation=''):
+        # TODO: add deepcopy of value to avoid side effects
         msg = ''
         if params:
             msg += '\twhen input={}'.format(params)
-        msg += '\n\t\t%r != %r' % (a, b)
+        msg += '\n\t\t%r != %r' % (value, expected)
         if expl:
-            msg += "\t<- correct %s value" % expl
-        self.assertEqual(a,b, msg)
+            msg += "\t<- correct %s value" % explanation
+        self.assertEqual(value, expected, msg)
     
    
 if __name__ == "__main__":
     
-    f = open(os.devnull,"w")
+    f = open(os.devnull,"w", encoding="utf8")
     folder=r'grade01'
     q2a={}
     
