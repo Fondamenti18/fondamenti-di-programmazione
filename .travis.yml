@@ -16,3 +16,8 @@ script:
 notifications:
     email: false
     webhooks: https://q2a.di.uniroma1.it/service/ci
+
+deploy:
+    provider: gh-pages
+    on:
+        target-branch: master
