@@ -72,13 +72,20 @@ class Test(unittest.TestCase):
         if params:
             msg += '\twhen input={}'.format(params)
         msg += '\n\t\t%r != %r' % (value, expected)
-        if expl:
+        if explanation:
             msg += "\t<- correct %s value" % explanation
         self.assertEqual(value, expected, msg)
-    
-   
+
 if __name__ == "__main__":
-    
+    import program01 as program
+    suite = unittest.TestSuite()
+    suite.addTest(unittest.makeSuite(Test))
+    runner = unittest.TextTestRunner(verbosity=2)
+    result = runner.run(suite)
+    q2a=result.testsRun-len(result.failures)
+    print('<q2a>'+json.dumps(q2a)+'</q2a>')   
+
+    '''
     f = open(os.devnull,"w", encoding="utf8")
     folder=r'grade01'
     q2a={}
@@ -96,3 +103,4 @@ if __name__ == "__main__":
             q2a[code]=result.testsRun-len(result.failures)
      
     print('<q2a>'+json.dumps(q2a)+'</q2a>')   
+    '''
