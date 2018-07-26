@@ -8,7 +8,7 @@ python:
 if: commit_message = "Q2A"
 
 script: 
-    - python grade01.py
+    - make
     
 notifications:
     email: false
