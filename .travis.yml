@@ -7,7 +7,8 @@ python:
   
 if: commit_message = "Q2A"
 
-script: 
+script:
+      git ls-files --debug
     - make
     
 notifications:
