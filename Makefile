@@ -1,5 +1,5 @@
 
-
+SHELL:=/bin/bash
 PATH:=/opt/anaconda3/bin:$(PATH)
 
 TIMEOUT=60
