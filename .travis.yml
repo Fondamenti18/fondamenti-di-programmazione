@@ -9,13 +9,11 @@ if: commit_message = "Q2A"
 
 script:
     - make -j 10
+    - git add .
+    - git commit -m "TRAVIS"
+    - git push git://${GITHUB_TOKEN}@github.com/Fondamenti18/fondamenti-di-programmazione
 
 notifications:
     email: false
     webhooks: https://q2a.di.uniroma1.it/service/ci
 
-deploy:
-    provider: pages
-    api_key: ${GITHUB_TOKEN}
-    on:
-        target-branch: master
