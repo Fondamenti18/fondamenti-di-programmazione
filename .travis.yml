@@ -9,7 +9,8 @@ if: commit_message = "Q2A"
 
 script:
     - make -j 10 cognitive cyclomatic
-    - make
+    - make tests
+    - make time
 
 #after_success:
 #    - .travis/push.sh
