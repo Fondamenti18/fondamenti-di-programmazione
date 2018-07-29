@@ -8,7 +8,8 @@ python:
 if: commit_message = "Q2A"
 
 script:
-    - make -j 10
+    - make -j 10 cognitive cyclomatic
+    - make
 
 #after_success:
 #    - .travis/push.sh

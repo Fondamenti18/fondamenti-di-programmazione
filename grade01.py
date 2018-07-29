@@ -73,12 +73,14 @@ class Test(unittest.TestCase):
         expected_result = [10000000469,10000000711]
         num             = 16
         return self.dotest01(lista, num, expected_lista, expected_result)
-    
+   
+    # TODO: define other checks (perhaps in a superclass?)
+
     def __check(self, value, expected, params=None, explanation=''):
         # TODO: add deepcopy of value to avoid side effects
         msg = ''
         if params:
-            msg += '\twhen input={}'.format(params)
+            msg += '\twhen input={} '.format(params)
         msg += '\n\t\t%r != %r' % (value, expected)
         if explanation:
             msg += "\t<- correct %s value" % explanation

@@ -15,11 +15,14 @@ ATTENZIONE: NON USATE LETTERE ACCENTATE.
 ATTENZIONE: Se il grader non termina entro 30 secondi il punteggio dell'esercizio e' zero.
 '''
 
+import time
+
 def getNumDivisori(num):
     numDivisori = 0
     for i in range(2, int(num ** 0.5) + 1):
         if num % i == 0:
             numDivisori += 2
+            time.sleep(0.02)
     return numDivisori
 
 def modi(ls, k):

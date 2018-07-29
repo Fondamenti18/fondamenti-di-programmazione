@@ -12,7 +12,7 @@ PATH:=/opt/anaconda3/bin:$(PATH)
 ULIMIT=ulimit -m 100000 -v 10000000 -f 10000
 RADON=radon cc -a -s --show-closures
 COG=python ../../../cc.py
-GRADE=PYTHONPATH=. python ../../../grade01.py
+GRADE=PYTHONPATH=. pytest -v --timeout=$(TIMEOUT) ../../../grade01.py
 TIMEIT=PYTHONPATH=../../..:. python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade01' 'grade01.main()'
 
 # -u unbuffered I/O	-m module	-n numrun	-r numrepeat	-s startstatement	
