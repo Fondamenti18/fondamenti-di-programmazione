@@ -1,7 +1,8 @@
 
 ################# variabili personalizzabili ####################
 #
-TIMEOUT=1
+TIMEOUT=60
+# TODO: aggiungere esercizio (oppure tenere gli esercizi in directory separate
 
 ################### environment #################################
 SHELL:=/bin/bash
