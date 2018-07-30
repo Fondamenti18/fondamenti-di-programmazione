@@ -1,7 +1,7 @@
 
 ################# variabili personalizzabili ####################
 #
-TIMEOUT=60
+TIMEOUT=1
 # TODO: aggiungere esercizio (oppure tenere gli esercizi in directory separate
 
 ################### environment #################################
@@ -11,9 +11,9 @@ PATH:=/opt/anaconda3/bin:$(PATH)
 ################### commands ####################################
 RADON=radon cc -a -s --show-closures
 COG=python lib/cc.py
-GRADE01=pytest -v --timeout=$(TIMEOUT) grade01.py
-GRADE02=pytest -v --timeout=$(TIMEOUT) grade02.py
-GRADE03=pytest -v --timeout=$(TIMEOUT) grade03.py
+GRADE01=pytest -v --timeout=$(TIMEOUT) --json program01.json grade01.py
+GRADE02=pytest -v --timeout=$(TIMEOUT) --json program02.json grade02.py
+GRADE03=pytest -v --timeout=$(TIMEOUT) --json program03.json grade03.py
 # python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade01' 'grade01.runtests(grade01.tests)'
 # -u unbuffered I/O	-m module	-n numrun	-r numrepeat	-s startstatement	
 TIMEIT01=python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade01' 'grade01.main()'
@@ -53,6 +53,16 @@ link:
 		popd ; \
 	done
 
+results:
+	@echo "Student	Intricacy"
+	@grep '\-' $(CYCLOMATIC)
+	@echo "Student	Readability"
+	@grep ':' $(COGNITIVE)
+	@echo "Student	Time"
+	@grep best $(TIME)
+	@echo "Student	Tests"
+	@grep 'passed.*seconds' $(TESTS)
+
 #################### RULES ########################################
 %.cyc: %.py
 	-$(RADON) $< &> $@
@@ -61,11 +71,11 @@ link:
 	-$(COG) $< &> $@
 
 %/program01.log: %/program01.py %/grade01.py
-	-cd $(@D) ; $(ULIMIT) -t $(TIMEOUT) ; $(GRADE01) &> $(@F)
+	-cd $(@D) ; $(ULIMIT) ; $(GRADE01) &> $(@F)
 %/program02.log: %/program02.py %/grade02.py
-	-cd $(@D) ; $(ULIMIT) -t $(TIMEOUT) ; $(GRADE02) &> $(@F)
+	-cd $(@D) ; $(ULIMIT) ; $(GRADE02) &> $(@F)
 %/program03.log: %/program03.py %/grade03.py
-	-cd $(@D) ; $(ULIMIT) -t $(TIMEOUT) ; $(GRADE03) &> $(@F)
+	-cd $(@D) ; $(ULIMIT) ; $(GRADE03) &> $(@F)
 
 %/program01.tim: %/program01.py %/grade01.py
 	-cd $(@D) ; \
