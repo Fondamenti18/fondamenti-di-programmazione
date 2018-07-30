@@ -8,18 +8,18 @@ timeout method: signal
 timeout func_only: False
 collecting ... collected 7 items
 
-grade01.py::Test::test_program01_10 PASSED                               [ 14%]
-grade01.py::Test::test_program01_11 PASSED                               [ 28%]
-grade01.py::Test::test_program01_3 PASSED                                [ 42%]
-grade01.py::Test::test_program01_5 FAILED                                [ 57%]
-grade01.py::Test::test_program01_7 PASSED                                [ 71%]
-grade01.py::Test::test_program01_9 PASSED                                [ 85%]
-grade01.py::Test::test_program01_9_2 PASSED                              [100%]
+grade03.py::Test::test_program01_10 PASSED                               [ 14%]
+grade03.py::Test::test_program01_11 PASSED                               [ 28%]
+grade03.py::Test::test_program01_3 PASSED                                [ 42%]
+grade03.py::Test::test_program01_5 FAILED                                [ 57%]
+grade03.py::Test::test_program01_7 PASSED                                [ 71%]
+grade03.py::Test::test_program01_9 PASSED                                [ 85%]
+grade03.py::Test::test_program01_9_2 PASSED                              [100%]
 
 =================================== FAILURES ===================================
 ____________________________ Test.test_program01_5 _____________________________
 
-self = <grade01.Test testMethod=test_program01_5>
+self = <grade03.Test testMethod=test_program01_5>
 
     def test_program01_5(self):
         "lista di valori tutti di 5 cifre"
@@ -29,11 +29,11 @@ self = <grade01.Test testMethod=test_program01_5>
         num             = 14
 >       return self.dotest01(lista, num, expected_lista, expected_result)
 
-grade01.py:67: 
+grade03.py:67: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-grade01.py:14: in dotest01
+grade03.py:14: in dotest01
     ret  = program.modi(*args)
-program01.py:34: in modi
+program03.py:34: in modi
     numDivisori = getNumDivisori(num)
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -47,5 +47,5 @@ num = 14421
 >               time.sleep(0.02)
 E               Failed: Timeout >1.0s
 
-program01.py:25: Failed
-====================== 1 failed, 6 passed in 4.69 seconds ======================
+program03.py:25: Failed
+====================== 1 failed, 6 passed in 4.60 seconds ======================
