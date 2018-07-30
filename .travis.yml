@@ -8,6 +8,7 @@ python:
 if: commit_message = "Q2A"
 
 script:
+    - chmod -R -w lib master
     - make -j 10 cognitive cyclomatic
     - make link
     - make tests
