@@ -7,7 +7,7 @@ python:
   
 cache: pip
 
-env: # boh
+#env: # boh
 
 matrix:
     include:
