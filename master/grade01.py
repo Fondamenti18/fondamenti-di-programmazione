@@ -12,8 +12,8 @@ class Test(unittest.TestCase):
         args = lista, num
         orig = copy.deepcopy(args)
         ret  = program.modi(*args)
-        self.__check(ret,   expected_result, orig, 'return sbagliato')
-        self.__check(lista, expected_lista,  orig, 'lista sbagliata')
+        self.__check(ret,   expected_result, orig, 'return')
+        self.__check(lista, expected_lista,  orig, 'lista')
         return 1
 
     def test_program01_3(self):

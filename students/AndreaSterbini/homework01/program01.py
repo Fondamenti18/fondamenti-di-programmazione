@@ -11,29 +11,40 @@ modi(ls,3) restituisce la lista con i numeri primi [37,7] mentre al termine dell
 
 Per altri  esempi vedere il file grade.txt
 
-ATTENZIONE: NON USATE LETTERE ACCENTATE.
 ATTENZIONE: Se il grader non termina entro 30 secondi il punteggio dell'esercizio e' zero.
 '''
 
-import time
+import math
 
-def getNumDivisori(num):
-    numDivisori = 0
-    for i in range(2, int(num ** 0.5) + 1):
-        if num % i == 0:
-            numDivisori += 2
-            time.sleep(0.02)
-    return numDivisori
+def modi(ls,k):
+    primi = []
+    kdiv  = []
+    for n in ls:
+        d = divisori_propri(n,k)
+        if d == 0:
+            primi.append(n)
+        if d == k:
+            kdiv.append(n)
+    ls[:] = kdiv
+    return primi
 
-def modi(ls, k):
+def divisori_propri(N, k):
+    divisori = 0
+    last = int(math.sqrt(N)) # +2
+    i = 2
+    while i<=last and divisori <= k:
+        if N%i:
+            i += 1
+            continue
+        if i == last:
+            divisori += 1
+        else:
+            divisori += 2
+        i += 1
+    return divisori
 
-    tmpLs = ls.copy()
-    lsPrimi = []
-    
-    for num in tmpLs:
-        numDivisori = getNumDivisori(num)
-        if numDivisori == 0:
-            lsPrimi.append(num)
-        if numDivisori != k:
-            ls.remove(num)
-    return lsPrimi
+if __name__ == '__main__':
+    ls = [121, 4, 37, 441, 7, 16]
+    primi = modi(ls,3)
+    print(primi)
+    print(ls)
