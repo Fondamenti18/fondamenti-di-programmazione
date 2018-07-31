@@ -110,6 +110,8 @@ results:
 
 clean: cleanlog
 	-find students -not -name 'program*.py' -delete
+master:
+	echo "DONE"
 
 commit: 
 	git add .

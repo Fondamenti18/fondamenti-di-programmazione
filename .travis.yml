@@ -19,6 +19,8 @@ matrix:
           env: TEST_SUITE=tests
         - if: branch = tests
           env: TEST_SUITE=time
+        - if: branch = time
+          env: TEST_SUITE=master
 
 script:
     - make link
