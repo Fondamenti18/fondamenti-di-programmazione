@@ -13,6 +13,7 @@ env:
     - TEST_SUITE=tests
     - TEST_SUITE=time
 
+cache: pip
 
 script:
     - make link
