@@ -1,0 +1,1 @@
+{"students/1228255/homework01/program01.py": [{"type": "function", "rank": "A", "name": "modi", "col_offset": 0, "lineno": 25, "endline": 36, "complexity": 4, "closures": []}, {"type": "function", "rank": "A", "name": "getNumDivisori", "col_offset": 0, "lineno": 18, "endline": 23, "complexity": 3, "closures": []}]}
