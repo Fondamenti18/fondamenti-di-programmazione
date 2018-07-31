@@ -82,9 +82,11 @@ if __name__ == '__main__':
         _, file, file_json = sys.argv
     cc=CognitiveComplexity()
     results=cc.evaluate(file)
+    maxCC = max(results.values())
     with open(file_json, "w", encoding='utf8') as jf:
-        json.dump(results, jf)
-    print("Cognitive complexity:", file)
+        json.dump({'max' : maxCC, 'results': results }, jf)
+    print("Cognitive complexity of:", file)
     for name, cc in results.items():
-        print('\t{} : {}'.format(name,cc))
+        print('\t{} : {}'.format(name, cc))
+    print("Max cognitive complexity:", maxCC)
 

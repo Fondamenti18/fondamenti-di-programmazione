@@ -76,6 +76,7 @@ results:
 
 %.cyc: %.py
 	-$(RADON) $< &> $@
+	-$(RADON) -j $< &> $@.json
 	
 %.cog: %.py
 	-$(COG) $< $(@D)/$(*F).cog.json &> $@
