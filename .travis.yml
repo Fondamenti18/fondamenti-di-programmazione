@@ -7,11 +7,16 @@ python:
   
 if: commit_message = "Q2A"
 
+env:
+    - TEST_SUITE=cyclomatic
+    - TEST_SUITE=cognitive
+    - TEST_SUITE=tests
+    - TEST_SUITE=time
+
+
 script:
-    - make -j 10 cognitive cyclomatic
     - make link
-    - make tests
-    - make time
+    - make $TEST_SUITE
 
 notifications:
     email: false
