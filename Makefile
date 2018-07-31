@@ -1,12 +1,11 @@
 
 ################# variabili personalizzabili ####################
 # Timeout applicato a CIASCUN test eseguito
-TIMEOUT01=10
-TIMEOUT02=10
-TIMEOUT03=10
+TIMEOUT=10
 
-# Homework in ballo
+# Homework ed esercizio in ballo
 HW=01
+EX=02
 
 ################### environment #################################
 SHELL:=/bin/bash
@@ -17,15 +16,11 @@ RADON=radon cc -a -s --show-closures
 
 COG=python lib/cc.py
 
-GRADE01=pytest -v --timeout=$(TIMEOUT01) --json program01.log.json grade01.py
-GRADE02=pytest -v --timeout=$(TIMEOUT02) --json program02.log.json grade02.py
-GRADE03=pytest -v --timeout=$(TIMEOUT03) --json program03.log.json grade03.py
+GRADE=pytest -v --timeout=$(TIMEOUT) --json program$(EX).log.json grade$(EX).py
 
 # python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade01' 'grade01.runtests(grade01.tests)'
 # -u unbuffered I/O	-m module	-n numrun	-r numrepeat	-s startstatement	
-TIMEIT01=python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade01' 'grade01.main()'
-TIMEIT02=python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade02' 'grade02.main()'
-TIMEIT03=python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade03' 'grade03.main()'
+TIMEIT=python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade$(EX)' 'grade$(EX).main()'
 
 #  ulimit
 #	-d        the maximum size of a process's data segment
@@ -36,7 +31,7 @@ TIMEIT03=python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade03' 'grade03.m
 ULIMIT=ulimit -m 100000 -v 10000000 -f 10000
 
 ################### files to produce #############################
-PROGRAMS=$(wildcard students/*/homework$(HW)/program0?.py)
+PROGRAMS=$(wildcard students/*/homework$(HW)/program$(EX).py)
 STUDENTS=$(wildcard students/*/homework$(HW))
 TESTS:=$(PROGRAMS:.py=.log)
 CYCLOMATIC:=$(PROGRAMS:.py=.cyc)
@@ -96,46 +91,24 @@ results:
 	-@if ($(COG) $< $(@D)/$(*F).cog.json &> $@) ; then echo -n '.' ; else echo -n '!' ; echo $@ >> cognitive.err ; fi
 
 # il timeout è gestito dal test/grader
-%/program01.log: %/program01.py %/grade01.py link 
+%/program$(EX).log: %/program$(EX).py %/grade$(EX).py link 
 	@echo "Testing $<"
-	-@cd $(@D) ; $(ULIMIT) ; $(GRADE01) &> $(@F)
-%/program02.log: %/program02.py %/grade02.py link
-	@echo "Testing $<"
-	-@cd $(@D) ; $(ULIMIT) ; $(GRADE02) &> $(@F)
-%/program03.log: %/program03.py %/grade03.py link
-	@echo "Testing $<"
-	-@cd $(@D) ; $(ULIMIT) ; $(GRADE03) &> $(@F)
+	-@cd $(@D) ; $(ULIMIT) ; $(GRADE) &> $(@F)
 
 # i tempi vengono misurati solo se si passano tutti i test
 # il timeout globale è 100 volte quello del singolo test
-%/program01.tim: %/program01.py %/grade01.py
+%/program$(EX).tim: %/program$(EX).py %/grade$(EX).py
 	@echo "Timing $<"
 	-@cd $(@D) ; \
 	if (grep -q FAILED $(basename $(@F)).log) ; then \
 		echo "Not timed because some test did not PASS" > $(@F) ; \
 	else \
-		$(ULIMIT) -t $(TIMEOUT01)00 ; $(TIMEIT01) &> $(@F) ; \
-	fi
-%/program02.tim: %/program02.py %/grade02.py
-	@echo "Timing $<"
-	-@cd $(@D) ; \
-	if (grep -q FAILED $(basename $(@F)).log) ; then \
-		echo "Not timed because some test did not PASS" > $(@F) ; \
-	else \
-		$(ULIMIT) -t $(TIMEOUT02)00 ; $(TIMEIT02) &> $(@F) ; \
-	fi
-%/program03.tim: %/program03.py %/grade03.py
-	@echo "Timing $<"
-	-@cd $(@D) ; \
-	if (grep -q FAILED $(basename $(@F)).log) ; then \
-		echo "Not timed because some test did not PASS" > $(@F) ; \
-	else \
-		$(ULIMIT) -t $(TIMEOUT03)00 ; $(TIMEIT03) &> $(@F) ; \
+		$(ULIMIT) -t $(TIMEOUT)00 ; $(TIMEIT) &> $(@F) ; \
 	fi
 
 # TODO: raccogliere i valori in un unico JSON
 
-clean:
+clean: cleanlog
 	-find students -not -name 'program*.py' -delete
 
 commit: 
