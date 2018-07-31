@@ -12,13 +12,13 @@ env: # boh
 matrix:
     include:
         - env: TEST_SUITE=cyclomatic
-            if: commit_message = "Q2A" AND branch = master
+          if: commit_message = "Q2A" AND branch = master
         - env: TEST_SUITE=cognitive
-            if: branch = cyclomatic
+          if: branch = cyclomatic
         - env: TEST_SUITE=tests
-            if: branch = cognitive
+          if: branch = cognitive
         - env: TEST_SUITE=time
-            if: branch = tests
+          if: branch = tests
 
 script:
     - make link
