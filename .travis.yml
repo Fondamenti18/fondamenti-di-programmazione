@@ -11,14 +11,14 @@ cache: pip
 
 matrix:
     include:
-        - env: TEST_SUITE=cyclomatic
-          if: commit_message = "Q2A" AND branch = master
-        - env: TEST_SUITE=cognitive
-          if: branch = cyclomatic
-        - env: TEST_SUITE=tests
-          if: branch = cognitive
-        - env: TEST_SUITE=time
-          if: branch = tests
+        - if: commit_message = "Q2A" AND branch = master
+          env: TEST_SUITE=cyclomatic
+        - if: branch = cyclomatic
+          env: TEST_SUITE=cognitive
+        - if: branch = cognitive
+          env: TEST_SUITE=tests
+        - if: branch = tests
+          env: TEST_SUITE=time
 
 script:
     - make link
