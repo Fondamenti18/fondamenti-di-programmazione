@@ -7,7 +7,7 @@ python:
   
 cache: pip
 
-env:
+env: # boh
 
 matrix:
     include:
@@ -27,7 +27,6 @@ script:
 notifications:
     email: false
     webhooks: https://q2a.di.uniroma1.it/service/ci
-
 
 deploy:
     provider: pages
