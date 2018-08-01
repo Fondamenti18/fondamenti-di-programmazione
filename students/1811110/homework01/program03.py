@@ -1,0 +1,118 @@
+'''Dato un testo da codificare ed una chiave si propone il seguente schema crittografico:
+
+- dalla chiave vengono eliminati  tutti i caratteri C per cui C<'a' o C>'z'. 
+- di ciascuno dei caratteri restanti vengono cancellate dalla chiave tutte le occorrenze 
+  tranne l'ultima, ottenendo una sequenza DISORDINATA. 
+- i caratteri presenti nella stringa cosi' ripulita saranno i soli caratteri del testo 
+  ad essere codificati ovvero sostituiti nel testo crittografato (gli altri resteranno invariati). 
+- la sequenza ORDINATA dei caratteri rimasti nella chiave viene messa in corrispondenza 
+  con la sequenza DISORDINATA dei caratteri ottenuti al passo precedente.
+
+Come esempio di applicazione  consideriamo la chiave
+ "sim sala Bim!"
+a seguito delle eliminazioni la chiave produce la sequenza DISORDINATA
+ "slaim"
+ 
+I soli caratteri del testo  a subire una codifica sarano 's','l', 'a' 'i' ed 'm'. 
+Per sapere con cosa verranno codificati questi caratteri si considera la seguente corrispondenza
+tra sequenze:
+    "ailms" (sequenza ordinata degli stessi caratteri)
+    "slaim" (sequenza disordinata ottenuta dalla chiave)
+questo determina gli accoppiamenti (a,s), (i,l) (l,a), (m,i) ed (s,m)
+la 'a' dunque sara' codificata con 's', la 'i' con 'l' e cosi' via.
+
+Utilizzando la chiave "sim sala Bim!" per codificare il testo  "il mare sa di sale" si 
+ otterra' il seguente testo crittografato:
+    "il mare sa di sale"   (testo in chiaro)
+    "la isre ms dl msae"   (testo crittografato)
+
+La decodifica del testo crittografato opera sulla stessa chive ma sostituisce le lettere
+presenti nella sequenza disordinata con quelle della sequenza ordinata.
+Quindi nell'esempio precedente le sostituzioni sono invertite:
+ (s, a), (l, i) (a, l), (i, m) ed (m, s)
+
+Per altri esempi vedere il file grade03.txt
+
+Implementate le due funzioni
+    codifica(chiave, testo_in_chiaro) -> testo_crittografato
+    decodifica(chiave, testo_crittografato) -> testo_in_chiaro
+
+ATTENZIONE: NON USATE LETTERE ACCENTATE.
+ATTENZIONE: Se il grader non termina entro 30 secondi il punteggio dell'esercizio e' zero.
+'''
+#, testo
+def doppie(k):
+    for x in k:
+        while k.count(x)>1:
+            k.remove(x)
+    for x in k:
+        while k.count(x)>1:
+            k.remove(x)
+
+    return (k)
+
+def start(chiave):
+    k=[]
+    chiave=chiave.replace(' ','')
+    
+    for x in chiave:
+        if x.islower()==0:
+            chiave=chiave.replace(x,'')
+
+    
+    k=list(chiave)  #qui ho la lista senza spazi
+            
+    ul=list(doppie(k))   #unorder list
+    ol=[]
+    ol= list(ul)                 #order list
+    ol.sort()
+    return(ul,ol)
+
+    
+def codifica(chiave, testo): #eliminato parametro testo
+    a=start(chiave)
+    ul=a[0]
+    ol=a[1]
+
+    to=list(testo)
+    tc=list(to)
+
+    y=0
+    for x in tc:
+        
+        for i in ol:
+            if(x==i):
+                a=ol.index(i)
+                tc[y] = ul[a]
+               
+        y+=1
+
+
+    t=''.join(tc)
+    return(t)
+            
+
+def decodifica(chiave, testo):
+    a=start(chiave)
+    ul=a[0]
+    ol=a[1]
+
+    tc=list(testo)
+    to=list(tc)
+    
+    y=0
+    for x in to:
+        
+        for i in ul:
+            if(x==i):
+                a=ul.index(i)
+                to[y] = ol[a]
+               
+        y+=1
+
+
+    to=''.join(to)
+    return(to)
+            
+   
+    
