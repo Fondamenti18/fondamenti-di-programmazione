@@ -1,0 +1,12 @@
+students/eBrignone/homework01/program02.py
+    F 98:0 stringaByValore - B (8)
+    F 116:0 raggruppamentoToString - B (6)
+    F 84:0 raggruppaInK - A (4)
+    F 66:0 getTupleInRange - A (4)
+    F 75:0 raggruppa - A (3)
+    F 61:0 getValoreByK - A (3)
+    F 51:0 scomponiDec - A (3)
+    F 145:0 conv - A (1)
+
+8 blocks (classes, functions, methods) analyzed.
+Average complexity: A (4.0)

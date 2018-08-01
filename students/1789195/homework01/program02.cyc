@@ -1,0 +1,16 @@
+students/1789195/homework01/program02.py
+    F 34:0 conv - C (15)
+    F 113:0 funzioneMigliaia - A (4)
+    F 94:0 funzioneCentinaia - A (4)
+    F 83:0 funzioneDecine - A (3)
+    F 160:0 funzioneMiliardi - A (2)
+    F 140:0 funzioneMilioni - A (2)
+    F 175:0 funzioneMiliardi12cifre - A (1)
+    F 169:0 funzioneMiliardi11cifre - A (1)
+    F 154:0 funzioneMilioni9cifre - A (1)
+    F 148:0 funzioneMilioni8cifre - A (1)
+    F 134:0 funzioneMigliaia6cifre - A (1)
+    F 128:0 funzioneMigliaia5cifre - A (1)
+
+12 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.0)

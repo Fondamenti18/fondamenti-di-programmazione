@@ -1,0 +1,239 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.7.0, py-1.5.2, pluggy-0.7.1 -- /home/travis/virtualenv/python3.6.3/bin/python
+cachedir: .pytest_cache
+rootdir: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1802232/homework01, inifile:
+plugins: timeout-1.3.1, json-0.4.0
+timeout: 10.0s
+timeout method: signal
+timeout func_only: False
+collecting ... collected 14 items
+
+grade02.py::Test::test_program_1 PASSED                                  [  7%]
+grade02.py::Test::test_program_10 FAILED                                 [ 14%]
+grade02.py::Test::test_program_11 FAILED                                 [ 21%]
+grade02.py::Test::test_program_12 FAILED                                 [ 28%]
+grade02.py::Test::test_program_13 FAILED                                 [ 35%]
+grade02.py::Test::test_program_14 FAILED                                 [ 42%]
+grade02.py::Test::test_program_2 PASSED                                  [ 50%]
+grade02.py::Test::test_program_3 FAILED                                  [ 57%]
+grade02.py::Test::test_program_4 PASSED                                  [ 64%]
+grade02.py::Test::test_program_5 PASSED                                  [ 71%]
+grade02.py::Test::test_program_6 FAILED                                  [ 78%]
+grade02.py::Test::test_program_7 FAILED                                  [ 85%]
+grade02.py::Test::test_program_8 FAILED                                  [ 92%]
+grade02.py::Test::test_program_9 FAILED                                  [100%]
+
+=================================== FAILURES ===================================
+_____________________________ Test.test_program_10 _____________________________
+
+self = <grade02.Test testMethod=test_program_10>
+
+    def test_program_10(self):
+        'non elisioni 800-1 e elisioni 80-1'
+        num      = 801081801081
+        expected = 'ottocentounomiliardiottantunomilioniottocentounomilaottantuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'unmilionemilleottant' != 'ottocentounomiliardiottantunomilioniottocentounomilaottantuno'
+E   - unmilionemilleottant
+E   + ottocentounomiliardiottantunomilioniottocentounomilaottantuno
+E    : 	when input=(801081801081,) 
+E   		'unmilionemilleottant' != 'ottocentounomiliardiottantunomilioniottocentounomilaottantuno'	<- correct return value
+_____________________________ Test.test_program_11 _____________________________
+
+self = <grade02.Test testMethod=test_program_11>
+
+    def test_program_11(self):
+        'elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto'
+        num      = 68258148238
+        expected = 'sessantottomiliardiduecentocinquantottomilionicentoquarantottomiladuecentotrentotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'centoquarantmiladuecentotrent' != 'sessantottomiliardiduecentocinquantottomi[38 chars]otto'
+E   - centoquarantmiladuecentotrent
+E   + sessantottomiliardiduecentocinquantottomilionicentoquarantottomiladuecentotrentotto
+E    : 	when input=(68258148238,) 
+E   		'centoquarantmiladuecentotrent' != 'sessantottomiliardiduecentocinquantottomilionicentoquarantottomiladuecentotrentotto'	<- correct return value
+_____________________________ Test.test_program_12 _____________________________
+
+self = <grade02.Test testMethod=test_program_12>
+
+    def test_program_12(self):
+        'elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno'
+        num      = 81071091021
+        expected = 'ottantunomiliardisettantunomilioninovantunomilaventuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:88: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'unmilionenovantunmilavent' != 'ottantunomiliardisettantunomilioninovantunomilaventuno'
+E   - unmilionenovantunmilavent
+E   + ottantunomiliardisettantunomilioninovantunomilaventuno
+E    : 	when input=(81071091021,) 
+E   		'unmilionenovantunmilavent' != 'ottantunomiliardisettantunomilioninovantunomilaventuno'	<- correct return value
+_____________________________ Test.test_program_13 _____________________________
+
+self = <grade02.Test testMethod=test_program_13>
+
+    def test_program_13(self):
+        'numeri speciali tra 10 e 20'
+        num      = 11012013014
+        expected = 'undicimiliardidodicimilionitredicimilaquattordici'
+>       return self.dotest02(num, expected)
+
+grade02.py:94: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'quattordici' != 'undicimiliardidodicimilionitredicimilaquattordici'
+E   - quattordici
+E   + undicimiliardidodicimilionitredicimilaquattordici
+E    : 	when input=(11012013014,) 
+E   		'quattordici' != 'undicimiliardidodicimilionitredicimilaquattordici'	<- correct return value
+_____________________________ Test.test_program_14 _____________________________
+
+self = <grade02.Test testMethod=test_program_14>
+
+    def test_program_14(self):
+        'numero massimo da convertire'
+        num      = 99999999999
+        expected = 'novantanovemiliardinovecentonovantanovemilioninovecentonovantanovemilanovecentonovantanove'
+>       return self.dotest02(num, expected)
+
+grade02.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'novecentonovantanove' != 'novantanovemiliardinovecentonovantanovemilio[42 chars]nove'
+E   - novecentonovantanove
+E   + novantanovemiliardinovecentonovantanovemilioninovecentonovantanovemilanovecentonovantanove
+E    : 	when input=(99999999999,) 
+E   		'novecentonovantanove' != 'novantanovemiliardinovecentonovantanovemilioninovecentonovantanovemilanovecentonovantanove'	<- correct return value
+_____________________________ Test.test_program_3 ______________________________
+
+self = <grade02.Test testMethod=test_program_3>
+
+    def test_program_3(self):
+        "non-elisione del cento e elisione del venti-otto"
+        num      = 128
+        expected = 'centoventotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'centovent' != 'centoventotto'
+E   - centovent
+E   + centoventotto
+E   ?          ++++
+E    : 	when input=(128,) 
+E   		'centovent' != 'centoventotto'	<- correct return value
+_____________________________ Test.test_program_6 ______________________________
+
+self = <grade02.Test testMethod=test_program_6>
+
+    def test_program_6(self):
+        "non-elisione del mille e elisione di 80"
+        num      = 17081
+        expected = 'diciassettemilaottantuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'ottant' != 'diciassettemilaottantuno'
+E   - ottant
+E   + diciassettemilaottantuno
+E    : 	when input=(17081,) 
+E   		'ottant' != 'diciassettemilaottantuno'	<- correct return value
+_____________________________ Test.test_program_7 ______________________________
+
+self = <grade02.Test testMethod=test_program_7>
+
+    def test_program_7(self):
+        "numero grande con molte elisioni e non-elisioni"
+        num      = 981008818
+        expected = 'novecentottantunomilioniottomilaottocentodiciotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'unmilioneottocentodiciotto' != 'novecentottantunomilioniottomilaottocentodiciotto'
+E   - unmilioneottocentodiciotto
+E   + novecentottantunomilioniottomilaottocentodiciotto
+E    : 	when input=(981008818,) 
+E   		'unmilioneottocentodiciotto' != 'novecentottantunomilioniottomilaottocentodiciotto'	<- correct return value
+_____________________________ Test.test_program_8 ______________________________
+
+self = <grade02.Test testMethod=test_program_8>
+
+    def test_program_8(self):
+        "elisioni 800-80 e 80-8"
+        num      = 888888888
+        expected = 'ottocentottantottomilioniottocentottantottomilaottocentottantotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'ottottantmilaottocentottant' != 'ottocentottantottomilioniottocentottantottomilaottocentottantotto'
+E   - ottottantmilaottocentottant
+E   + ottocentottantottomilioniottocentottantottomilaottocentottantotto
+E    : 	when input=(888888888,) 
+E   		'ottottantmilaottocentottant' != 'ottocentottantottomilioniottocentottantottomilaottocentottantotto'	<- correct return value
+_____________________________ Test.test_program_9 ______________________________
+
+self = <grade02.Test testMethod=test_program_9>
+
+    def test_program_9(self):
+        'non elisioni 800-8 e elisioni 800-80'
+        num      = 808080808080
+        expected = 'ottocentoottomiliardiottantamilioniottocentoottomilaottanta'
+>       return self.dotest02(num, expected)
+
+grade02.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:13: in dotest02
+    self.__check(ret,   expected_result, orig, 'return')
+grade02.py:110: in __check
+    self.assertEqual(value, expected, msg)
+E   AssertionError: 'ottanta' != 'ottocentoottomiliardiottantamilioniottocentoottomilaottanta'
+E   - ottanta
+E   + ottocentoottomiliardiottantamilioniottocentoottomilaottanta
+E    : 	when input=(808080808080,) 
+E   		'ottanta' != 'ottocentoottomiliardiottantamilioniottocentoottomilaottanta'	<- correct return value
+ generated json report: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1802232/homework01/program02.log.json 
+===================== 10 failed, 4 passed in 0.30 seconds ======================

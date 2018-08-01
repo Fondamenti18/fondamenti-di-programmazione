@@ -1,0 +1,10 @@
+students/1810218/homework01/program02.py
+    F 115:0 conv - C (15)
+    F 3:0 fino_a_99 - C (12)
+    F 94:0 fino_a_999999999999 - B (6)
+    F 73:0 fino_a_999999999 - B (6)
+    F 52:0 fino_a_999999 - B (6)
+    F 32:0 fino_a_999 - B (6)
+
+6 blocks (classes, functions, methods) analyzed.
+Average complexity: B (8.5)

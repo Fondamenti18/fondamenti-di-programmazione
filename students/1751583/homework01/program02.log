@@ -1,0 +1,835 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.7.0, py-1.5.2, pluggy-0.7.1 -- /home/travis/virtualenv/python3.6.3/bin/python
+cachedir: .pytest_cache
+rootdir: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1751583/homework01, inifile:
+plugins: timeout-1.3.1, json-0.4.0
+timeout: 10.0s
+timeout method: signal
+timeout func_only: False
+collecting ... collected 14 items
+
+grade02.py::Test::test_program_1 PASSED                                  [  7%]
+grade02.py::Test::test_program_10 FAILED                                 [ 14%]
+grade02.py::Test::test_program_11 FAILED                                 [ 21%]
+grade02.py::Test::test_program_12 FAILED                                 [ 28%]
+grade02.py::Test::test_program_13 FAILED                                 [ 35%]
+grade02.py::Test::test_program_14 FAILED                                 [ 42%]
+grade02.py::Test::test_program_2 PASSED                                  [ 50%]
+grade02.py::Test::test_program_3 FAILED                                  [ 57%]
+grade02.py::Test::test_program_4 FAILED                                  [ 64%]
+grade02.py::Test::test_program_5 FAILED                                  [ 71%]
+grade02.py::Test::test_program_6 FAILED                                  [ 78%]
+grade02.py::Test::test_program_7 FAILED                                  [ 85%]
+grade02.py::Test::test_program_8 FAILED                                  [ 92%]
+grade02.py::Test::test_program_9 FAILED                                  [100%]
+
+=================================== FAILURES ===================================
+_____________________________ Test.test_program_10 _____________________________
+
+self = <grade02.Test testMethod=test_program_10>
+
+    def test_program_10(self):
+        'non elisioni 800-1 e elisioni 80-1'
+        num      = 801081801081
+        expected = 'ottocentounomiliardiottantunomilioniottocentounomilaottantuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 801081801081
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+                   "mila" + \
+                   Numberotesto(n%1000)
+    
+        elif n <= 1999999:
+            return "unmilione" + Numberotesto(n%1000000)
+    
+        elif n <= 999999999:
+            return Numberotesto(int(n/1000000))+ \
+                   "milioni" + \
+                   Numberotesto(n%1000000)
+    
+        elif n <= 1999999999:
+            return "unmiliardo" + Numberotesto(n%1000000000)
+    
+        elif n<=1999999999999:
+>           return "unbiliardo" + numerotesto (n%1000000000000)
+E           NameError: name 'numerotesto' is not defined
+
+program02.py:88: NameError
+_____________________________ Test.test_program_11 _____________________________
+
+self = <grade02.Test testMethod=test_program_11>
+
+    def test_program_11(self):
+        'elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto'
+        num      = 68258148238
+        expected = 'sessantottomiliardiduecentocinquantottomilionicentoquarantottomiladuecentotrentotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 68258148238
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+                   "mila" + \
+                   Numberotesto(n%1000)
+    
+        elif n <= 1999999:
+            return "unmilione" + Numberotesto(n%1000000)
+    
+        elif n <= 999999999:
+            return Numberotesto(int(n/1000000))+ \
+                   "milioni" + \
+                   Numberotesto(n%1000000)
+    
+        elif n <= 1999999999:
+            return "unmiliardo" + Numberotesto(n%1000000000)
+    
+        elif n<=1999999999999:
+>           return "unbiliardo" + numerotesto (n%1000000000000)
+E           NameError: name 'numerotesto' is not defined
+
+program02.py:88: NameError
+_____________________________ Test.test_program_12 _____________________________
+
+self = <grade02.Test testMethod=test_program_12>
+
+    def test_program_12(self):
+        'elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno'
+        num      = 81071091021
+        expected = 'ottantunomiliardisettantunomilioninovantunomilaventuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:88: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 81071091021
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+                   "mila" + \
+                   Numberotesto(n%1000)
+    
+        elif n <= 1999999:
+            return "unmilione" + Numberotesto(n%1000000)
+    
+        elif n <= 999999999:
+            return Numberotesto(int(n/1000000))+ \
+                   "milioni" + \
+                   Numberotesto(n%1000000)
+    
+        elif n <= 1999999999:
+            return "unmiliardo" + Numberotesto(n%1000000000)
+    
+        elif n<=1999999999999:
+>           return "unbiliardo" + numerotesto (n%1000000000000)
+E           NameError: name 'numerotesto' is not defined
+
+program02.py:88: NameError
+_____________________________ Test.test_program_13 _____________________________
+
+self = <grade02.Test testMethod=test_program_13>
+
+    def test_program_13(self):
+        'numeri speciali tra 10 e 20'
+        num      = 11012013014
+        expected = 'undicimiliardidodicimilionitredicimilaquattordici'
+>       return self.dotest02(num, expected)
+
+grade02.py:94: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 11012013014
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+                   "mila" + \
+                   Numberotesto(n%1000)
+    
+        elif n <= 1999999:
+            return "unmilione" + Numberotesto(n%1000000)
+    
+        elif n <= 999999999:
+            return Numberotesto(int(n/1000000))+ \
+                   "milioni" + \
+                   Numberotesto(n%1000000)
+    
+        elif n <= 1999999999:
+            return "unmiliardo" + Numberotesto(n%1000000000)
+    
+        elif n<=1999999999999:
+>           return "unbiliardo" + numerotesto (n%1000000000000)
+E           NameError: name 'numerotesto' is not defined
+
+program02.py:88: NameError
+_____________________________ Test.test_program_14 _____________________________
+
+self = <grade02.Test testMethod=test_program_14>
+
+    def test_program_14(self):
+        'numero massimo da convertire'
+        num      = 99999999999
+        expected = 'novantanovemiliardinovecentonovantanovemilioninovecentonovantanovemilanovecentonovantanove'
+>       return self.dotest02(num, expected)
+
+grade02.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 99999999999
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+                   "mila" + \
+                   Numberotesto(n%1000)
+    
+        elif n <= 1999999:
+            return "unmilione" + Numberotesto(n%1000000)
+    
+        elif n <= 999999999:
+            return Numberotesto(int(n/1000000))+ \
+                   "milioni" + \
+                   Numberotesto(n%1000000)
+    
+        elif n <= 1999999999:
+            return "unmiliardo" + Numberotesto(n%1000000000)
+    
+        elif n<=1999999999999:
+>           return "unbiliardo" + numerotesto (n%1000000000000)
+E           NameError: name 'numerotesto' is not defined
+
+program02.py:88: NameError
+_____________________________ Test.test_program_3 ______________________________
+
+self = <grade02.Test testMethod=test_program_3>
+
+    def test_program_3(self):
+        "non-elisione del cento e elisione del venti-otto"
+        num      = 128
+        expected = 'centoventotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 128
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+>           return "cento" + Numberotesto(n%100)
+E           NameError: name 'Numberotesto' is not defined
+
+program02.py:56: NameError
+_____________________________ Test.test_program_4 ______________________________
+
+self = <grade02.Test testMethod=test_program_4>
+
+    def test_program_4(self):
+        "non-elisione del cento"
+        num      = 508
+        expected = 'cinquecentootto'
+>       return self.dotest02(num, expected)
+
+grade02.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 508
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+>           y = int(m/10)
+E           NameError: name 'm' is not defined
+
+program02.py:60: NameError
+_____________________________ Test.test_program_5 ______________________________
+
+self = <grade02.Test testMethod=test_program_5>
+
+    def test_program_5(self):
+        "non-elisione del mille e del cento"
+        num      = 1501
+        expected = 'millecinquecentouno'
+>       return self.dotest02(num, expected)
+
+grade02.py:46: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 1501
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+>           return "mille" + Numberotesto(n%1000)
+E           NameError: name 'Numberotesto' is not defined
+
+program02.py:69: NameError
+_____________________________ Test.test_program_6 ______________________________
+
+self = <grade02.Test testMethod=test_program_6>
+
+    def test_program_6(self):
+        "non-elisione del mille e elisione di 80"
+        num      = 17081
+        expected = 'diciassettemilaottantuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 17081
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+>                  "mila" + \
+                   Numberotesto(n%1000)
+E           NameError: name 'Numberotesto' is not defined
+
+program02.py:73: NameError
+_____________________________ Test.test_program_7 ______________________________
+
+self = <grade02.Test testMethod=test_program_7>
+
+    def test_program_7(self):
+        "numero grande con molte elisioni e non-elisioni"
+        num      = 981008818
+        expected = 'novecentottantunomilioniottomilaottocentodiciotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 981008818
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+                   "mila" + \
+                   Numberotesto(n%1000)
+    
+        elif n <= 1999999:
+            return "unmilione" + Numberotesto(n%1000000)
+    
+        elif n <= 999999999:
+            return Numberotesto(int(n/1000000))+ \
+>                  "milioni" + \
+                   Numberotesto(n%1000000)
+E           NameError: name 'Numberotesto' is not defined
+
+program02.py:81: NameError
+_____________________________ Test.test_program_8 ______________________________
+
+self = <grade02.Test testMethod=test_program_8>
+
+    def test_program_8(self):
+        "elisioni 800-80 e 80-8"
+        num      = 888888888
+        expected = 'ottocentottantottomilioniottocentottantottomilaottocentottantotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 888888888
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+                   "mila" + \
+                   Numberotesto(n%1000)
+    
+        elif n <= 1999999:
+            return "unmilione" + Numberotesto(n%1000000)
+    
+        elif n <= 999999999:
+            return Numberotesto(int(n/1000000))+ \
+>                  "milioni" + \
+                   Numberotesto(n%1000000)
+E           NameError: name 'Numberotesto' is not defined
+
+program02.py:81: NameError
+_____________________________ Test.test_program_9 ______________________________
+
+self = <grade02.Test testMethod=test_program_9>
+
+    def test_program_9(self):
+        'non elisioni 800-8 e elisioni 800-80'
+        num      = 808080808080
+        expected = 'ottocentoottomiliardiottantamilioniottocentoottomilaottanta'
+>       return self.dotest02(num, expected)
+
+grade02.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 808080808080
+
+    def conv(n):
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+                    "diciassette", "diciotto", "diciannove")[n-1]
+    
+        elif n <= 99:
+            decine = ("venti", "trenta", "quaranta",
+                      "cinquanta", "sessanta",
+                      "settanta", "ottanta", "novanta")
+            lettere = decine[int(n/10)-2]
+            x = n%10
+            if x == 1 or x == 8:
+                lettere = lettere[:-1]
+            return lettere + Numberotesto(n%10)
+    
+        elif n <= 199:
+            return "cento" + Numberotesto(n%100)
+    
+        elif n <= 999:
+            y = n%100
+            y = int(m/10)
+            lettere = "cent"
+            if y != 8:
+                lettere = lettere + "o"
+            return Numberotesto( int(n/100)) + \
+                   lettere + \
+                   Numberotesto(n%100)
+    
+        elif n<= 1999 :
+            return "mille" + Numberotesto(n%1000)
+    
+        elif n<= 999999:
+            return Numberotesto(int(n/1000)) + \
+                   "mila" + \
+                   Numberotesto(n%1000)
+    
+        elif n <= 1999999:
+            return "unmilione" + Numberotesto(n%1000000)
+    
+        elif n <= 999999999:
+            return Numberotesto(int(n/1000000))+ \
+                   "milioni" + \
+                   Numberotesto(n%1000000)
+    
+        elif n <= 1999999999:
+            return "unmiliardo" + Numberotesto(n%1000000000)
+    
+        elif n<=1999999999999:
+>           return "unbiliardo" + numerotesto (n%1000000000000)
+E           NameError: name 'numerotesto' is not defined
+
+program02.py:88: NameError
+ generated json report: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1751583/homework01/program02.log.json 
+===================== 12 failed, 2 passed in 0.25 seconds ======================

@@ -2,6 +2,8 @@
 ################# variabili personalizzabili ####################
 # Timeout applicato a CIASCUN test eseguito
 TIMEOUT=10
+# Timeout totale applicato sul calcolo del tempo di esecuzione
+MAXTIMEOUT=100
 
 # Homework ed esercizio in ballo
 HW=01
@@ -20,7 +22,7 @@ GRADE=pytest -v --timeout=$(TIMEOUT) --json program$(EX).log.json grade$(EX).py
 
 # python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade01' 'grade01.runtests(grade01.tests)'
 # -u unbuffered I/O	-m module	-n numrun	-r numrepeat	-s startstatement	
-TIMEIT=python -u -m timeit -c -v -v -v -v -r 10 -s 'import grade$(EX)' 'grade$(EX).main()'
+TIMEIT=python -u -m timeit -c -v -v -v -v -n 10 -r 10 -s 'import grade$(EX)' 'grade$(EX).main()'
 
 #  ulimit
 #	-d        the maximum size of a process's data segment
@@ -103,7 +105,7 @@ results:
 	if (grep -q FAILED $(basename $(@F)).log) ; then \
 		echo "Not timed because some test did not PASS" > $(@F) ; \
 	else \
-		$(ULIMIT) -t $(TIMEOUT)00 ; $(TIMEIT) &> $(@F) ; \
+		$(ULIMIT) -t $(MAXTIMEOUT) ; $(TIMEIT) &> $(@F) ; \
 	fi
 
 # TODO: raccogliere i valori in un unico JSON

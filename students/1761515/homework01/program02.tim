@@ -1,0 +1,3402 @@
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+test_program_1 (grade02.Test)
+numero semplice senza elisioni ... ok
+test_program_10 (grade02.Test)
+non elisioni 800-1 e elisioni 80-1 ... ok
+test_program_11 (grade02.Test)
+elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto ... ok
+test_program_12 (grade02.Test)
+elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno ... ok
+test_program_13 (grade02.Test)
+numeri speciali tra 10 e 20 ... ok
+test_program_14 (grade02.Test)
+numero massimo da convertire ... ok
+test_program_2 (grade02.Test)
+numero speciale tra 10 e 20 ... ok
+test_program_3 (grade02.Test)
+non-elisione del cento e elisione del venti-otto ... ok
+test_program_4 (grade02.Test)
+non-elisione del cento ... ok
+test_program_5 (grade02.Test)
+non-elisione del mille e del cento ... ok
+test_program_6 (grade02.Test)
+non-elisione del mille e elisione di 80 ... ok
+test_program_7 (grade02.Test)
+numero grande con molte elisioni e non-elisioni ... ok
+test_program_8 (grade02.Test)
+elisioni 800-80 e 80-8 ... ok
+test_program_9 (grade02.Test)
+non elisioni 800-8 e elisioni 800-80 ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+OK
+<q2a>14</q2a>
+raw times: 0.019513 0.019372 0.019245 0.019362 0.019271 0.019265 0.019335 0.01926 0.019276 0.019305
+10 loops, best of 10: 1.9245 msec per loop

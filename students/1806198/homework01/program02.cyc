@@ -1,0 +1,14 @@
+students/1806198/homework01/program02.py
+    F 88:0 aggiungi_10_20 - B (8)
+    F 96:0 calcola_suffisso - A (5)
+    F 48:0 calcola_decine - A (5)
+    F 112:0 correggi_mille - A (4)
+    F 33:0 calcola_centinaia - A (4)
+    F 10:0 conv - A (4)
+    F 104:0 aggiungi_suffisso - A (3)
+    F 79:0 aggiungi_unita - A (2)
+    F 64:0 calcola_unita - A (2)
+    F 118:0 set_flags - A (1)
+
+10 blocks (classes, functions, methods) analyzed.
+Average complexity: A (3.8)

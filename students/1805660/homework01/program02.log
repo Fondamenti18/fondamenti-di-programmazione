@@ -1,0 +1,134 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.7.0, py-1.5.2, pluggy-0.7.1 -- /home/travis/virtualenv/python3.6.3/bin/python
+cachedir: .pytest_cache
+rootdir: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1805660/homework01, inifile:
+plugins: timeout-1.3.1, json-0.4.0
+timeout: 10.0s
+timeout method: signal
+timeout func_only: False
+collecting ... collected 14 items
+
+grade02.py::Test::test_program_1 PASSED                                  [  7%]
+grade02.py::Test::test_program_10 PASSED                                 [ 14%]
+grade02.py::Test::test_program_11 PASSED                                 [ 21%]
+grade02.py::Test::test_program_12 PASSED                                 [ 28%]
+grade02.py::Test::test_program_13 PASSED                                 [ 35%]
+grade02.py::Test::test_program_14 FAILED                                 [ 42%]
+grade02.py::Test::test_program_2 PASSED                                  [ 50%]
+grade02.py::Test::test_program_3 PASSED                                  [ 57%]
+grade02.py::Test::test_program_4 PASSED                                  [ 64%]
+grade02.py::Test::test_program_5 PASSED                                  [ 71%]
+grade02.py::Test::test_program_6 PASSED                                  [ 78%]
+grade02.py::Test::test_program_7 PASSED                                  [ 85%]
+grade02.py::Test::test_program_8 PASSED                                  [ 92%]
+grade02.py::Test::test_program_9 FAILED                                  [100%]
+
+=================================== FAILURES ===================================
+_____________________________ Test.test_program_14 _____________________________
+
+self = <grade02.Test testMethod=test_program_14>
+
+    def test_program_14(self):
+        'numero massimo da convertire'
+        num      = 99999999999
+        expected = 'novantanovemiliardinovecentonovantanovemilioninovecentonovantanovemilanovecentonovantanove'
+>       return self.dotest02(num, expected)
+
+grade02.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:77: in conv
+    direpesiU = letnum(u)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 9
+
+    def letnum(n):
+        letnumU = ['zero','uno', 'due', 'tre','quattro', 'cinque', 'sei', 'sette', 'otto', 'nove']
+        letnumDD = ['dieci', 'undici', 'dodici', 'tredici', 'quattordici', 'quindici', 'sedici', 'diciassette', 'diciotto', 'diciannove']
+        letnumD = ['', '', 'venti', 'trenta', 'quaranta', 'cinquanta', 'sessanta', 'settanta', 'ottanta', 'novanta']
+        letnumDeli = ['', '', 'vent', 'trent', 'quarant', 'cinquant', 'sessant', 'settant', 'ottant', 'novant']
+        letnumH = ['', 'cento', 'duecento', 'trecento', 'quattrocento', 'cinquecento', 'seicento', 'settecento', 'ottocento', 'novecento']
+        letnumHeli = ['', 'cent', 'duecent', 'trecent', 'quattrocent', 'cinquecent', 'seicent', 'settecent', 'ottocent', 'novecent']
+        st = ''
+    
+        u = n % 10
+        n = n // 10
+        d = n % 10
+        n = n // 10
+        h = n % 10
+    
+        if h!= 0:
+            if d == 8:
+                st += letnumHeli[h]
+    
+            else:
+                st += letnumH[h]
+    
+        if d == 1:
+            st += letnumDD[u]
+    
+        if d != 0 and d != 1:
+            if u == 1 or u == 8:
+                st = st + letnumDeli[d] + letnumU[u]
+            else:
+>               st = st + letnumD[d] + letnum[u]
+E               TypeError: 'function' object is not subscriptable
+
+program02.py:63: TypeError
+_____________________________ Test.test_program_9 ______________________________
+
+self = <grade02.Test testMethod=test_program_9>
+
+    def test_program_9(self):
+        'non elisioni 800-8 e elisioni 800-80'
+        num      = 808080808080
+        expected = 'ottocentoottomiliardiottantamilioniottocentoottomilaottanta'
+>       return self.dotest02(num, expected)
+
+grade02.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:77: in conv
+    direpesiU = letnum(u)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 0
+
+    def letnum(n):
+        letnumU = ['zero','uno', 'due', 'tre','quattro', 'cinque', 'sei', 'sette', 'otto', 'nove']
+        letnumDD = ['dieci', 'undici', 'dodici', 'tredici', 'quattordici', 'quindici', 'sedici', 'diciassette', 'diciotto', 'diciannove']
+        letnumD = ['', '', 'venti', 'trenta', 'quaranta', 'cinquanta', 'sessanta', 'settanta', 'ottanta', 'novanta']
+        letnumDeli = ['', '', 'vent', 'trent', 'quarant', 'cinquant', 'sessant', 'settant', 'ottant', 'novant']
+        letnumH = ['', 'cento', 'duecento', 'trecento', 'quattrocento', 'cinquecento', 'seicento', 'settecento', 'ottocento', 'novecento']
+        letnumHeli = ['', 'cent', 'duecent', 'trecent', 'quattrocent', 'cinquecent', 'seicent', 'settecent', 'ottocent', 'novecent']
+        st = ''
+    
+        u = n % 10
+        n = n // 10
+        d = n % 10
+        n = n // 10
+        h = n % 10
+    
+        if h!= 0:
+            if d == 8:
+                st += letnumHeli[h]
+    
+            else:
+                st += letnumH[h]
+    
+        if d == 1:
+            st += letnumDD[u]
+    
+        if d != 0 and d != 1:
+            if u == 1 or u == 8:
+                st = st + letnumDeli[d] + letnumU[u]
+            else:
+>               st = st + letnumD[d] + letnum[u]
+E               TypeError: 'function' object is not subscriptable
+
+program02.py:63: TypeError
+ generated json report: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1805660/homework01/program02.log.json 
+===================== 2 failed, 12 passed in 0.11 seconds ======================

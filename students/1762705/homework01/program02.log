@@ -1,0 +1,298 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.7.0, py-1.5.2, pluggy-0.7.1 -- /home/travis/virtualenv/python3.6.3/bin/python
+cachedir: .pytest_cache
+rootdir: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1762705/homework01, inifile:
+plugins: timeout-1.3.1, json-0.4.0
+timeout: 10.0s
+timeout method: signal
+timeout func_only: False
+collecting ... collected 14 items
+
+grade02.py::Test::test_program_1 PASSED                                  [  7%]
+grade02.py::Test::test_program_10 FAILED                                 [ 14%]
+grade02.py::Test::test_program_11 FAILED                                 [ 21%]
+grade02.py::Test::test_program_12 FAILED                                 [ 28%]
+grade02.py::Test::test_program_13 FAILED                                 [ 35%]
+grade02.py::Test::test_program_14 FAILED                                 [ 42%]
+grade02.py::Test::test_program_2 PASSED                                  [ 50%]
+grade02.py::Test::test_program_3 PASSED                                  [ 57%]
+grade02.py::Test::test_program_4 PASSED                                  [ 64%]
+grade02.py::Test::test_program_5 PASSED                                  [ 71%]
+grade02.py::Test::test_program_6 FAILED                                  [ 78%]
+grade02.py::Test::test_program_7 FAILED                                  [ 85%]
+grade02.py::Test::test_program_8 FAILED                                  [ 92%]
+grade02.py::Test::test_program_9 FAILED                                  [100%]
+
+=================================== FAILURES ===================================
+_____________________________ Test.test_program_10 _____________________________
+
+self = <grade02.Test testMethod=test_program_10>
+
+    def test_program_10(self):
+        'non elisioni 800-1 e elisioni 80-1'
+        num      = 801081801081
+        expected = 'ottocentounomiliardiottantunomilioniottocentounomilaottantuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:76: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:77: in conv
+    return conv(int(n/1000000000)) + "miliardi" + conv(n%1000000000)
+program02.py:73: in conv
+    return conv(int(n/1000000)) + "milioni" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+E   RecursionError: maximum recursion depth exceeded in comparison
+!!! Recursion detected (same locals & position)
+_____________________________ Test.test_program_11 _____________________________
+
+self = <grade02.Test testMethod=test_program_11>
+
+    def test_program_11(self):
+        'elisioni sessanta-otto, cinquanta-otto, quaranta-otto, trenta-otto'
+        num      = 68258148238
+        expected = 'sessantottomiliardiduecentocinquantottomilionicentoquarantottomiladuecentotrentotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:82: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:77: in conv
+    return conv(int(n/1000000000)) + "miliardi" + conv(n%1000000000)
+program02.py:73: in conv
+    return conv(int(n/1000000)) + "milioni" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+E   RecursionError: maximum recursion depth exceeded in comparison
+!!! Recursion detected (same locals & position)
+_____________________________ Test.test_program_12 _____________________________
+
+self = <grade02.Test testMethod=test_program_12>
+
+    def test_program_12(self):
+        'elisioni ottanta-uno,settanta-uno,novanta-uno, venti-uno'
+        num      = 81071091021
+        expected = 'ottantunomiliardisettantunomilioninovantunomilaventuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:88: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:77: in conv
+    return conv(int(n/1000000000)) + "miliardi" + conv(n%1000000000)
+program02.py:73: in conv
+    return conv(int(n/1000000)) + "milioni" + conv(n%1000000)
+program02.py:69: in conv
+    return conv(n/1000) + "mila" + conv(n%1000)
+program02.py:54: in conv
+    return letter + conv(n%10)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 1.0210000000000008
+
+    def conv(n):
+        'Scrivete qui il codice della funzione'
+        #numeri semplici
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+>                   "diciassette", "diciotto", "diciannove")[n-1]
+E           TypeError: tuple indices must be integers or slices, not float
+
+program02.py:45: TypeError
+_____________________________ Test.test_program_13 _____________________________
+
+self = <grade02.Test testMethod=test_program_13>
+
+    def test_program_13(self):
+        'numeri speciali tra 10 e 20'
+        num      = 11012013014
+        expected = 'undicimiliardidodicimilionitredicimilaquattordici'
+>       return self.dotest02(num, expected)
+
+grade02.py:94: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:77: in conv
+    return conv(int(n/1000000000)) + "miliardi" + conv(n%1000000000)
+program02.py:73: in conv
+    return conv(int(n/1000000)) + "milioni" + conv(n%1000000)
+program02.py:69: in conv
+    return conv(n/1000) + "mila" + conv(n%1000)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 13.014
+
+    def conv(n):
+        'Scrivete qui il codice della funzione'
+        #numeri semplici
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+>                   "diciassette", "diciotto", "diciannove")[n-1]
+E           TypeError: tuple indices must be integers or slices, not float
+
+program02.py:45: TypeError
+_____________________________ Test.test_program_14 _____________________________
+
+self = <grade02.Test testMethod=test_program_14>
+
+    def test_program_14(self):
+        'numero massimo da convertire'
+        num      = 99999999999
+        expected = 'novantanovemiliardinovecentonovantanovemilioninovecentonovantanovemilanovecentonovantanove'
+>       return self.dotest02(num, expected)
+
+grade02.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:77: in conv
+    return conv(int(n/1000000000)) + "miliardi" + conv(n%1000000000)
+program02.py:73: in conv
+    return conv(int(n/1000000)) + "milioni" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+E   RecursionError: maximum recursion depth exceeded in comparison
+!!! Recursion detected (same locals & position)
+_____________________________ Test.test_program_6 ______________________________
+
+self = <grade02.Test testMethod=test_program_6>
+
+    def test_program_6(self):
+        "non-elisione del mille e elisione di 80"
+        num      = 17081
+        expected = 'diciassettemilaottantuno'
+>       return self.dotest02(num, expected)
+
+grade02.py:52: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:69: in conv
+    return conv(n/1000) + "mila" + conv(n%1000)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 17.081
+
+    def conv(n):
+        'Scrivete qui il codice della funzione'
+        #numeri semplici
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+>                   "diciassette", "diciotto", "diciannove")[n-1]
+E           TypeError: tuple indices must be integers or slices, not float
+
+program02.py:45: TypeError
+_____________________________ Test.test_program_7 ______________________________
+
+self = <grade02.Test testMethod=test_program_7>
+
+    def test_program_7(self):
+        "numero grande con molte elisioni e non-elisioni"
+        num      = 981008818
+        expected = 'novecentottantunomilioniottomilaottocentodiciotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:73: in conv
+    return conv(int(n/1000000)) + "milioni" + conv(n%1000000)
+program02.py:69: in conv
+    return conv(n/1000) + "mila" + conv(n%1000)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+n = 8.818
+
+    def conv(n):
+        'Scrivete qui il codice della funzione'
+        #numeri semplici
+        if n == 0:
+            return ""
+    
+        elif n <= 19:
+            return ("uno", "due", "tre", "quattro", "cinque",
+                    "sei", "sette", "otto", "nove", "dieci",
+                    "undici", "dodici", "tredici",
+                    "quattordici", "quindici", "sedici",
+>                   "diciassette", "diciotto", "diciannove")[n-1]
+E           TypeError: tuple indices must be integers or slices, not float
+
+program02.py:45: TypeError
+_____________________________ Test.test_program_8 ______________________________
+
+self = <grade02.Test testMethod=test_program_8>
+
+    def test_program_8(self):
+        "elisioni 800-80 e 80-8"
+        num      = 888888888
+        expected = 'ottocentottantottomilioniottocentottantottomilaottocentottantotto'
+>       return self.dotest02(num, expected)
+
+grade02.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:73: in conv
+    return conv(int(n/1000000)) + "milioni" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+E   RecursionError: maximum recursion depth exceeded in comparison
+!!! Recursion detected (same locals & position)
+_____________________________ Test.test_program_9 ______________________________
+
+self = <grade02.Test testMethod=test_program_9>
+
+    def test_program_9(self):
+        'non elisioni 800-8 e elisioni 800-80'
+        num      = 808080808080
+        expected = 'ottocentoottomiliardiottantamilioniottocentoottomilaottanta'
+>       return self.dotest02(num, expected)
+
+grade02.py:70: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+grade02.py:12: in dotest02
+    ret  = program.conv(*args)
+program02.py:77: in conv
+    return conv(int(n/1000000000)) + "miliardi" + conv(n%1000000000)
+program02.py:73: in conv
+    return conv(int(n/1000000)) + "milioni" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+program02.py:71: in conv
+    return "unmilione" + conv(n%1000000)
+E   RecursionError: maximum recursion depth exceeded in comparison
+!!! Recursion detected (same locals & position)
+ generated json report: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1762705/homework01/program02.log.json 
+====================== 9 failed, 5 passed in 0.32 seconds ======================

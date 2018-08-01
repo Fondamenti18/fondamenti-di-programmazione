@@ -1,0 +1,8 @@
+students/1565193/homework01/program02.py
+    F 63:0 conv - A (5)
+    F 32:0 under100 - A (5)
+    F 57:0 under1000000000 - A (4)
+    F 46:0 under1000 - A (3)
+
+4 blocks (classes, functions, methods) analyzed.
+Average complexity: A (4.25)
