@@ -148,12 +148,12 @@ commit: .travis.yml
 	git commit -m "Q2A"
 	git push
 
-.travis.yml.students:
+.travis.yml.students: Makefile
 	echo $(STUDENTS)
 	echo > $@
 	for s in $(STUDENTS) ; do \
 		for e in 1 2 3 ; do \
-			echo "        - STUDENT=$$s EX=$$e" >> $@ ; \
+			echo "        - STUDENT=$$s EX=$$e TIMEOUT=$(TIMEOUT) HOMEWORK=$(HW)" >> $@ ; \
 		done ; \
 	done
 

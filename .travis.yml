@@ -39,12 +39,12 @@ env:
     matrix:
 
 
-        - STUDENT=AndreaSterbini EX=1
-        - STUDENT=AndreaSterbini EX=2
-        - STUDENT=AndreaSterbini EX=3
-        - STUDENT=AngeloMonti EX=1
-        - STUDENT=AngeloMonti EX=2
-        - STUDENT=AngeloMonti EX=3
-        - STUDENT=AngeloSpognardi EX=1
-        - STUDENT=AngeloSpognardi EX=2
-        - STUDENT=AngeloSpognardi EX=3
+        - STUDENT=AndreaSterbini EX=1 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AndreaSterbini EX=2 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AndreaSterbini EX=3 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloMonti EX=1 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloMonti EX=2 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloMonti EX=3 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloSpognardi EX=1 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloSpognardi EX=2 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloSpognardi EX=3 TIMEOUT=10 HOMEWORK=01
