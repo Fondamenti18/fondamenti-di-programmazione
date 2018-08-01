@@ -30,7 +30,7 @@ TIMEIT=python -u -m timeit -c -v -v -v -v -n 10 -r 10 -s 'import grade$(EX)' 'gr
 #	-m        the maximum resident set size
 #	-t        the maximum amount of cpu time in seconds
 #	-v        the size of virtual memory
-ULIMIT=ulimit -m 100000 -v 10000000 -f 10000
+ULIMIT=ulimit -H -m 100000 -v 10000000 -f 10000
 
 ################### files to produce #############################
 PROGRAMS=$(wildcard students/*/homework$(HW)/program$(EX).py)
@@ -93,13 +93,12 @@ results:
 	-@if ($(COG) $< $(@D)/$(*F).cog.json &> $@) ; then echo -n '.' ; else echo -n '!' ; echo $@ >> cognitive.err ; fi
 
 # il timeout è gestito dal test/grader
-%/program$(EX).log: %/program$(EX).py %/grade$(EX).py link 
+%/program$(EX).log: %/program$(EX).py # link 
 	@echo "Testing $<"
 	-@cd $(@D) ; $(ULIMIT) ; $(GRADE) &> $(@F)
 
-# i tempi vengono misurati solo se si passano tutti i test
-# il timeout globale è 100 volte quello del singolo test
-%/program$(EX).tim: %/program$(EX).py %/grade$(EX).py
+# i tempi vengono misurati solo se si sono superati tutti i test
+%/program$(EX).tim: %/program$(EX).py # link
 	@echo "Timing $<"
 	-@cd $(@D) ; \
 	if (grep -q FAILED $(basename $(@F)).log) ; then \
