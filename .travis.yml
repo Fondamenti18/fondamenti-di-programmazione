@@ -7,15 +7,15 @@ python:
   
 cache: pip
 
-#env: # boh
-
 file_glob: true
 
 if: commit_message = "Q2A"
 
+before_script:
+    - make STUDENT=$STUDENT HW=$HOMEWORK EX=$EX TIMEOUT=$TIMEOUT link
+
 script:
-    - echo make STUDENT=$STUDENT HW=$HOMEWORK EX=$EX TIMEOUT=$TIMEOUT link
-    - echo make STUDENT=$STUDENT HW=$HOMEWORK EX=$EX TIMEOUT=$TIMEOUT
+    - make STUDENT=$STUDENT HW=$HOMEWORK EX=$EX TIMEOUT=$TIMEOUT
 
 notifications:
     email: false
@@ -26,17 +26,19 @@ deploy:
     skip_cleanup: true
     #local_dir: myfolder/  # or remove this line to upload from root of repo
     github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-    target-branch: $STUDENT-$HOMEWORK-$EX
+    target-branch: $STUDENT
     keep-history: true
     on:
             all_branches: true
 
 env:
-    - HOMEWORK=01
-    - EX=01 TIMEOUT=10
-    - EX=02 TIMEOUT=1
-    - EX=03 TIMEOUT=1
-    - STUDENT=1158925
-    - STUDENT=1162431
-    - STUDENT=1277198
-    - STUDENT=1320404
+    global:
+        - PYTHONPATH=.:lib
+        - HOMEWORK=01
+        - MAXTIMEOUT=100
+    matrix:
+        - EX=01 TIMEOUT=10
+        - EX=02 TIMEOUT=1
+        - EX=03 TIMEOUT=1
+        - STUDENT=$(basename students/*)
+
