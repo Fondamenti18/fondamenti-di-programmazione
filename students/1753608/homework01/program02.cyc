@@ -1,9 +1,0 @@
-students/1753608/homework01/program02.py
-    F 81:0 get_literal_triad - C (14)
-    F 118:0 fix_unit - B (10)
-    F 146:0 split - A (3)
-    F 71:0 conv - A (3)
-    F 139:0 normalize - A (2)
-
-5 blocks (classes, functions, methods) analyzed.
-Average complexity: B (6.4)

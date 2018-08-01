@@ -1,1 +1,0 @@
-{"students/1808985/homework01/program02.py": [{"type": "function", "rank": "C", "name": "lavora_tripletta", "lineno": 52, "complexity": 17, "col_offset": 0, "endline": 94, "closures": []}, {"type": "function", "rank": "A", "name": "conv", "lineno": 34, "complexity": 3, "col_offset": 0, "endline": 49, "closures": []}]}

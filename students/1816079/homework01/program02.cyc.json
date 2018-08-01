@@ -1,1 +1,0 @@
-{"students/1816079/homework01/program02.py": [{"type": "function", "rank": "C", "lineno": 34, "col_offset": 0, "complexity": 19, "endline": 77, "name": "conv", "closures": []}, {"type": "function", "rank": "A", "lineno": 79, "col_offset": 0, "complexity": 1, "endline": 84, "name": "dictionary", "closures": []}]}

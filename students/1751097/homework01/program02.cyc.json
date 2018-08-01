@@ -1,1 +1,0 @@
-{"students/1751097/homework01/program02.py": [{"type": "function", "rank": "C", "endline": 71, "lineno": 35, "complexity": 14, "col_offset": 0, "name": "conv", "closures": []}, {"type": "function", "rank": "A", "endline": 87, "lineno": 74, "complexity": 4, "col_offset": 0, "name": "calcola_lettere", "closures": []}]}

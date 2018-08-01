@@ -9,22 +9,13 @@ cache: pip
 
 #env: # boh
 
-matrix:
-    include:
-        - if: commit_message = "Q2A" AND branch = master
-          env: TEST_SUITE=cyclomatic
-        - if: branch = cyclomatic
-          env: TEST_SUITE=cognitive
-        - if: branch = cognitive
-          env: TEST_SUITE=tests
-        - if: branch = tests
-          env: TEST_SUITE=time
-        - if: branch = time
-          env: TEST_SUITE=master
+file_glob: true
+
+if: commit_message = "Q2A"
 
 script:
-    - make link
-    - make $TEST_SUITE
+    - make STUDENT=$STUDENT link
+    - make STUDENT=$STUDENT
 
 notifications:
     email: false
@@ -35,8 +26,21 @@ deploy:
     skip_cleanup: true
     #local_dir: myfolder/  # or remove this line to upload from root of repo
     github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-    target-branch: $TEST_SUITE
+    target-branch: $STUDENT
     keep-history: true
     on:
             all_branches: true
             # branch: master, cyclomatic cognitive tests time
+env:
+    - STUDENT=1158925
+    - STUDENT=1162431
+    - STUDENT=1277198
+    - STUDENT=1320404
+    - STUDENT=1320780
+    - STUDENT=1333589
+    - STUDENT=1338215
+    - STUDENT=1391924
+    - STUDENT=1404378
+    - STUDENT=1408597
+    - STUDENT=1417388
+    - STUDENT=1455544

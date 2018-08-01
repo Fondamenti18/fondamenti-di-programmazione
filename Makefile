@@ -8,6 +8,8 @@ MAXTIMEOUT=100
 # Homework ed esercizio in ballo
 HW=01
 EX=02
+STUDENT=*
+STUDENT=AndreaSterbini
 
 ################### environment #################################
 SHELL:=/bin/bash
@@ -33,23 +35,28 @@ TIMEIT=python -u -m timeit -c -v -v -v -v -n 10 -r 10 -s 'import grade$(EX)' 'gr
 ULIMIT=ulimit -m 100000 -v 10000000 -f 10000
 
 ################### files to produce #############################
-PROGRAMS=$(wildcard students/*/homework$(HW)/program$(EX).py)
-STUDENTS=$(wildcard students/*/homework$(HW))
+PROGRAMS=$(wildcard students/$(STUDENT)/homework$(HW)/program$(EX).py)
+STUDENTS=$(wildcard students/$(STUDENT)/homework$(HW))
 TESTS:=$(PROGRAMS:.py=.log)
 CYCLOMATIC:=$(PROGRAMS:.py=.cyc)
 TIME:=$(PROGRAMS:.py=.tim)
 COGNITIVE:=$(PROGRAMS:.py=.cog)
+COMPILE:=$(PROGRAMS:.py=.compila)
 MASTER:=$(wildcard master/*)
 FILES:=$(notdir $(MASTER))
 
 ##################################################################
-all: link cleanlog cyclomatic cognitive tests time
+all: link cleanlog dos2unix compile cyclomatic cognitive tests time
 
+compile:	echo_comp $(COMPILE)
 cyclomatic:	echo_cyc $(CYCLOMATIC)
 cognitive:	echo_cog $(COGNITIVE)
 tests:		$(TESTS)
 time:		$(TIME)
 
+echo_comp:
+	@echo
+	@echo "Syntax check:"
 echo_cyc:
 	@echo
 	@echo "Cyclomatic complexity:"
@@ -72,7 +79,7 @@ cleanlog:
 	@rm -f *.err
 
 dos2unix:
-	dos2unix students/*/homework$(HW)/program*.py
+	dos2unix students/$(STUDENT)/homework$(HW)/program*.py &> /dev/null
 
 results:
 	@echo "Student	Intricacy"
@@ -86,11 +93,23 @@ results:
 
 #################### RULES ########################################
 
+%.compila: %.py
+	-@if (python -m py_compile $< &> $@) ; then echo -n '.' ; else mv $@ $(@D)/$(*F).noncompila ; echo -n '!' ; fi
+
 %.cyc: %.py
 	-@if ($(RADON) $< &> $@ ; $(RADON) -j $< &> $@.json) ; then echo -n '.' ; else echo -n '!' ; echo $@ >> cyclomatic.err ; fi
 	
 %.cog: %.py
-	-@if ($(COG) $< $(@D)/$(*F).cog.json &> $@) ; then echo -n '.' ; else echo -n '!' ; echo $@ >> cognitive.err ; fi
+	-@if ($(COG) $< $(@D)/$(*F).cog.json &> $@) ; then  \
+		echo -n '.' ; \
+	else \
+		cat $< | sed -e 's/#.*//' -e 's/^\s\+$$//' | tr '\n' '\r' | sed -s 's/\r\+/\n/g' > $(@D)/$(*F).normalized ; \
+		if ($(COG) $(@D)/$(*F).normalized $(@D)/$(*F).cog.json &> $@) ; then  \
+			echo -n '.' ; \
+		else \
+			echo -n '!' ; echo $@ >> cognitive.err ; \
+		fi \
+	fi
 
 # il timeout è gestito dal test/grader
 %/program$(EX).log: %/program$(EX).py # link 
