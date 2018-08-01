@@ -78,7 +78,7 @@ link: ro
 	done
 
 dos2unix:
-	dos2unix students/$(STUDENT)/homework$(HW)/program*.py &> /dev/null
+	dos2unix students/$(STUDENT)/homework$(HW)/program*.py # &> /dev/null
 
 results:
 	@echo "Student	Intricacy"
