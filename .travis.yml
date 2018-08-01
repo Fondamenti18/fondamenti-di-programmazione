@@ -1,0 +1,55 @@
+sudo: false
+
+language: python
+
+python:
+    - "3.6"
+
+addons:
+  apt:
+    packages:
+    - dos2unix
+
+cache: pip
+
+file_glob: true
+
+if: commit_message = "Q2A"
+
+before_script:
+    - make STUDENT=$STUDENT HW=$HOMEWORK EX=$EX TIMEOUT=$TIMEOUT link
+
+script:
+    - make STUDENT=$STUDENT HW=$HOMEWORK EX=$EX TIMEOUT=$TIMEOUT
+
+notifications:
+    email: false
+    webhooks: https://q2a.di.uniroma1.it/service/ci
+
+deploy:
+    provider: pages
+    skip_cleanup: true
+    #local_dir: myfolder/  # or remove this line to upload from root of repo
+    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+    target-branch: $STUDENT
+    keep-history: true
+    on:
+            all_branches: true
+
+env:
+    global:
+        - PYTHONPATH=.:lib
+        - HOMEWORK=01
+        - MAXTIMEOUT=100
+    matrix:
+
+
+        - STUDENT=AndreaSterbini EX=1 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AndreaSterbini EX=2 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AndreaSterbini EX=3 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloMonti EX=1 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloMonti EX=2 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloMonti EX=3 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloSpognardi EX=1 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloSpognardi EX=2 TIMEOUT=10 HOMEWORK=01
+        - STUDENT=AngeloSpognardi EX=3 TIMEOUT=10 HOMEWORK=01
