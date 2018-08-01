@@ -14,8 +14,8 @@ file_glob: true
 if: commit_message = "Q2A"
 
 script:
-    - echo make STUDENT=$STUDENT link
-    - echo make STUDENT=$STUDENT
+    - echo make STUDENT=$STUDENT HW=$HOMEWORK EX=$EX TIMEOUT=$TIMEOUT link
+    - echo make STUDENT=$STUDENT HW=$HOMEWORK EX=$EX TIMEOUT=$TIMEOUT
 
 notifications:
     email: false
@@ -26,21 +26,17 @@ deploy:
     skip_cleanup: true
     #local_dir: myfolder/  # or remove this line to upload from root of repo
     github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-    target-branch: $STUDENT
+    target-branch: $STUDENT-$HOMEWORK-$EX
     keep-history: true
     on:
             all_branches: true
-            # branch: master, cyclomatic cognitive tests time
+
 env:
+    - HOMEWORK=01
+    - EX=01 TIMEOUT=10
+    - EX=02 TIMEOUT=1
+    - EX=03 TIMEOUT=1
     - STUDENT=1158925
     - STUDENT=1162431
     - STUDENT=1277198
     - STUDENT=1320404
-    - STUDENT=1320780
-    - STUDENT=1333589
-    - STUDENT=1338215
-    - STUDENT=1391924
-    - STUDENT=1404378
-    - STUDENT=1408597
-    - STUDENT=1417388
-    - STUDENT=1455544
