@@ -24,4 +24,4 @@ grade02.py::Test::test_program_8 PASSED                                  [ 92%]
 grade02.py::Test::test_program_9 PASSED                                  [100%]
 
  generated json report: /home/travis/build/Fondamenti18/fondamenti-di-programmazione/students/1817203/homework01/program02.log.json 
-========================== 14 passed in 0.13 seconds ===========================
+========================== 14 passed in 0.04 seconds ===========================
