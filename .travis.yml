@@ -39,3 +39,7 @@ deploy:
     keep-history: true
     on:
         branch: master
+        branch: cyclomatic
+        branch: cognitive
+        branch: tests
+        branch: time
