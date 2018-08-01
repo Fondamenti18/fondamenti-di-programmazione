@@ -36,7 +36,7 @@ ULIMIT=ulimit -m 100000 -v 10000000 -f 10000
 
 ################### files to produce #############################
 PROGRAMS=$(wildcard students/$(STUDENT)/homework$(HW)/program$(EX).py)
-STUDENTS=$(wildcard students/$(STUDENT)/homework$(HW))
+STUDENTS=$(notdir $(wildcard students/$(STUDENT)))
 TESTS:=$(PROGRAMS:.py=.log)
 CYCLOMATIC:=$(PROGRAMS:.py=.cyc)
 TIME:=$(PROGRAMS:.py=.tim)
@@ -67,6 +67,7 @@ echo_cog:
 ro:
 	@echo "Master files changed to read-only"
 	@chmod -R a+r-w+X master/*
+	# TODO: mettere tutti i file RO e rendere RW SOLO la directory dello studente in ballo
 
 link: ro
 	@echo "Linking Master files: "
@@ -74,9 +75,6 @@ link: ro
 		(pushd $$d ; ln -s ../../../master/* . ; popd) &> /dev/null ; \
 		echo -n '.' ; \
 	done
-
-cleanlog:
-	@rm -f *.err
 
 dos2unix:
 	dos2unix students/$(STUDENT)/homework$(HW)/program*.py &> /dev/null
@@ -126,15 +124,39 @@ results:
 		$(ULIMIT) -t $(MAXTIMEOUT) ; $(TIMEIT) &> $(@F) ; \
 	fi
 
-# TODO: raccogliere i valori in un unico JSON
+# TODO: raccogliere i valori  dei risultati in un unico JSON PER STUDENTE
 
-clean: cleanlog
+############################## CLEAN ####################################
+clean: cleanlog cleanstudents cleantravis
+
+cleanstudents:
 	-find students -not -name 'program*.py' -delete
+cleanlog:
+	@rm -f *.err
+cleantravis:
+	@rm .travis.yml .travis.yml.students
+
+###################### TRAVIS + COMMIT ##################################
+
 master:
 	echo "DONE"
 
-commit: 
+commit: .travis.yml
+	# TODO: switch al branch dello studente
 	git add .
 	git commit -m "Q2A"
 	git push
 
+.travis.yml.students:
+	echo $(STUDENTS)
+	echo > $@
+	for s in $(STUDENTS) ; do \
+		for e in 1 2 3 ; do \
+			echo "        - STUDENT=$$s EX=$$e" >> $@ ; \
+		done ; \
+	done
+
+.travis.yml: .travis.yml.master .travis.yml.students 
+	cat $^ > $@
+
+##########################################################################

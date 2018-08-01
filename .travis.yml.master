@@ -38,7 +38,3 @@ env:
         - MAXTIMEOUT=100
     matrix:
 
-
-    - STUDENT=AndreaSterbini EX=1
-    - STUDENT=AndreaSterbini EX=2
-    - STUDENT=AndreaSterbini EX=3
