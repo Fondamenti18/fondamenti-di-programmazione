@@ -14,8 +14,8 @@ file_glob: true
 if: commit_message = "Q2A"
 
 script:
-    - make STUDENT=$STUDENT link
-    - make STUDENT=$STUDENT
+    - echo make STUDENT=$STUDENT link
+    - echo make STUDENT=$STUDENT
 
 notifications:
     email: false
