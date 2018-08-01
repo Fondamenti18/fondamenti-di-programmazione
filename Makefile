@@ -9,7 +9,7 @@ MAXTIMEOUT=100
 HW=01
 EX=02
 STUDENT=*
-STUDENT=AndreaSterbini
+STUDENT=A*
 
 ################### environment #################################
 SHELL:=/bin/bash
@@ -37,6 +37,7 @@ ULIMIT=ulimit -m 100000 -v 10000000 -f 10000
 ################### files to produce #############################
 PROGRAMS=$(wildcard students/$(STUDENT)/homework$(HW)/program$(EX).py)
 STUDENTS=$(notdir $(wildcard students/$(STUDENT)))
+HOMEWORKS=$(wildcard students/$(STUDENT)/homework$(HW))
 TESTS:=$(PROGRAMS:.py=.log)
 CYCLOMATIC:=$(PROGRAMS:.py=.cyc)
 TIME:=$(PROGRAMS:.py=.tim)
@@ -71,7 +72,7 @@ ro:
 
 link: ro
 	@echo "Linking Master files: "
-	-@for d in $(STUDENTS) ; do \
+	-@for d in $(HOMEWORKS) ; do \
 		(pushd $$d ; ln -s ../../../master/* . ; popd) &> /dev/null ; \
 		echo -n '.' ; \
 	done
