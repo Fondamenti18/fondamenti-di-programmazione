@@ -32,11 +32,12 @@ deploy:
             all_branches: true
 
 env:
-    - HOMEWORK=01
-    - EX=01 TIMEOUT=10
-      EX=02 TIMEOUT=1
-      EX=03 TIMEOUT=1
-    - STUDENT=1158925
-      STUDENT=1162431
-      STUDENT=1277198
-      STUDENT=1320404
+    matrix:
+       - HOMEWORK=01
+       - EX=01 TIMEOUT=10
+       - EX=02 TIMEOUT=1
+       - EX=03 TIMEOUT=1
+       - STUDENT=1158925
+       - STUDENT=1162431
+       - STUDENT=1277198
+       - STUDENT=1320404
