@@ -38,8 +38,5 @@ deploy:
     target-branch: $TEST_SUITE
     keep-history: true
     on:
-        branch: master
-        branch: cyclomatic
-        branch: cognitive
-        branch: tests
-        branch: time
+            all_branches: true
+            # branch: master, cyclomatic cognitive tests time
