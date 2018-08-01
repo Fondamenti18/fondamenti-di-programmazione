@@ -30,7 +30,7 @@ TIMEIT=python -u -m timeit -c -v -v -v -v -n 10 -r 10 -s 'import grade$(EX)' 'gr
 #	-m        the maximum resident set size
 #	-t        the maximum amount of cpu time in seconds
 #	-v        the size of virtual memory
-ULIMIT=ulimit -H -m 100000 -v 10000000 -f 10000
+ULIMIT=ulimit -m 100000 -v 10000000 -f 10000
 
 ################### files to produce #############################
 PROGRAMS=$(wildcard students/*/homework$(HW)/program$(EX).py)
